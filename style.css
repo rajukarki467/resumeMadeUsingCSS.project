@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin-top: 25px;
+    height: 100%;
+    width: 100%;
+    background-color: #dddddd;
+    display: flex;
+    justify-content:center;
+
+}
+
+.left-side{
+    width: 25%;
+    height: 900px;
+    background-color: #5B99C2;
+    color: white;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: 3px solid #dddddd;
+  
+}
+
+.logo{
+    margin-top: 15px;
+    height:100px;
+    width:100px;
+    border: 2px solid #dddddd;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url("profile.jpg");
+    background-size: cover;
+    margin-left: 30%;
+    margin-bottom: 50px;
+}
+
+.contact{
+    height: 170px;
+}
+
+ .left-side p{
+    border-bottom: 2px solid #dddddd;
+    width: 80%;
+    margin-left: 15px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact a{
+    margin:0.6rem;
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+
+.contact a i{
+    margin:0.5rem;
+}
+
+.education{
+    height: 270px;
+}
+.education a{
+    color: #dddddd;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.education span{
+    margin-left: 20px;
+    font-size: 0.75rem;
+}
+
+.ed{
+    margin-bottom: 20px;
+}
+
+.skill{
+    height:155px;
+    margin-bottom:10px;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 20px;
+   
+}
+li{
+    margin-bottom: 10px;
+    font-size: 0.75rem;
+    color: white;
+}
+
+.right-side{
+    width:75%;
+    height: 900px;
+    background-color:#F9DBBA;
+    color: black;
+}
+
+.info{
+    height:120px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    text-align: center;
+}
+
+h5{
+    margin:10px;
+}
+.link{
+    height: 50px;
+}
+
+.link a {
+    height:50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.link a i{
+    height:40px;
+    background-size:3rem;
+}
+.profile{
+    height: 130px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+h2{
+  border-bottom:3px solid #555555;
+  width: 98%;
+}
+
+.profile p{
+    font-size:1rem;
+    margin:0.5rem;
+}
+
+.experience{
+    height:50%;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+
+}
+
+.ecomerce{
+ height:55%;
+ margin-bottom: 15px;
+}
+
+.chess{
+    height:45%;
+    margin: 15px;
+
+}
+.content{
+    height: 100%;
+    margin-left: 20px;
+}
+
+.experience p{
+    margin-top: 2px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom:2px;
+
+}
+
+
+.experience span{
+    font-size: 0.85rem;
+    margin: 5px;
+}
+
+.experience a{
+    text-decoration: none;
+    color: rgb(78, 78, 156);
+}
+.experience h3{
+    color: rgb(28, 28, 50);
+    border-bottom: 2px solid #555555;
+    width:33%;
+}
+
+.references{
+  height:27%;
+  margin-left: 20px;
+}
+
+.ref22{
+    display:flex;
+    justify-content:center;
+    font-size:0.85rem;
+    height:80%;
+}
+
+.ref1{
+    padding-right:80px;
+}
+.ref2{
+    padding-left: 80px;
+}
